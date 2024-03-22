@@ -1,0 +1,92 @@
+#barraSuperior {
+    margin: 10px;
+
+    display: flex;
+    background-color: purple;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+#opciinesMenu {
+    display: flex;
+    justify-content: initial;
+    flex-direction: row;
+    gap: 15px;
+
+
+}
+
+#logoHotty {
+    color: white;
+}
+
+#logo {
+    display: flex;
+    background-color: purple;
+    flex-direction: column;
+}
+
+
+.botonesSuperiores {
+    color: white;
+}
+
+#contenedorBarraSuperior {
+    background-color: purple;
+    margin: "20px";
+
+    border-radius: 11px;
+}
+
+.contenedorPerfiles {
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+}
+
+.perfil {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+
+    flex-direction: column;
+}
+
+
+
+.profileBigPicture{
+    width: 100%;
+}
+
+.profilesList{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: nowrap;
+
+}
+.profileSmallPictureList{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    height: 50%; 
+    width: 70%;
+}
+.profileSmallPictureRow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow: auto;
+}
+
+.smallPicture{
+    border-radius: 10px;
+    flex: 1;
+}
+.bigPicture{
+    border-radius: 10px;
+    flex: 1;
+}
